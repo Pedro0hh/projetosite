@@ -89,6 +89,11 @@ body{
 
    }
 
+   .hero {
+    width: 60%;
+    margin: auto;
+   } 
+
    .gray {
     background-color:rgb(223, 222, 222)
    }
@@ -101,6 +106,7 @@ body{
     margin: 1rem 0;
     font-size: 1.5rem;
     font-weight: 100;
+    font-family: "Roboto-thin", sans-serif;
    }
 
    h1 {
@@ -109,8 +115,10 @@ body{
    }
    
    h1.title {
+    color: rgb(52, 52, 69);
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: left;
+    font-family: "Roboto-thin", sans-serif;
     /* font-weight: bold; */
    }
 
@@ -163,26 +171,32 @@ body{
       border-radius: 10px;
       color: white;
       font-size: 1.7rem;
+      font-family: "Roboto-thin", sans-serif;
     }
 
    .card.red {
       background-color: red;
+      font-family: "Roboto-thin", sans-serif;
    }
 
    .card.blue {
     background-color: #42b0f8;
+    font-family: "Roboto-thin", sans-serif;
    }
 
    .card.purple {
     background-color: #9e69d5;
+    font-family: "Roboto-thin", sans-serif;
    }
 
    .card.yellow {
     background-color: #f4a823;
+    font-family: "Roboto-thin", sans-serif;
    }
 
    .card.green {
     background-color: #3cbfa1;
+    font-family: "Roboto-thin", sans-serif;
    }
 
    .members {
@@ -217,4 +231,32 @@ body{
     text-align: center;
    }
 
-   
+   header div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+   }
+
+   .logo img{
+    width: 211px;
+   }
+
+   .sing-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   input [type = "text"],
+         [type = "email"],
+         [type = "password"]{
+         width: 180px;
+         padding: 0.5rem;
+         border-radius: 5px;
+         border: 1px solid #ccc
+   }
+
+   .sing-in button {
+    border: none;
+   }
+
